@@ -1,0 +1,11 @@
+type WorkExperience {
+  company: String!
+  position: String!
+  startDate: String!
+  endDate: String!
+  description: String!
+}
+
+type Query {
+  workExperiences: [WorkExperience!]!
+}

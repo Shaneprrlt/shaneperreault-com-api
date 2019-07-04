@@ -1,0 +1,10 @@
+type AcademicAward {
+  award: String!
+  institution: String!
+  year: String!
+  description: String!
+}
+
+type Query {
+  academicAwards: [AcademicAward!]!
+}

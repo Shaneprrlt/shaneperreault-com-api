@@ -1,0 +1,11 @@
+type EducationExperience {
+  institution: String!
+  degreeProgram: String!
+  startDate: String!
+  endDate: String!
+  description: String!
+}
+
+type Query {
+  educationExperiences: [EducationExperience!]!
+}

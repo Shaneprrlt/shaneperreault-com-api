@@ -1,0 +1,28 @@
+{
+  "name": "shaneperreault.com-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test",
+    "dev": "nodemon -r esm src/index.js",
+    "start": "node -r esm src/index.js",
+    "deploy": "now"
+  },
+  "keywords": [
+    "shaneperreault.com"
+  ],
+  "author": "shane perreault",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.6.0",
+    "dotenv": "^8.0.0",
+    "esm": "^3.2.25",
+    "graphql": "^14.4.2",
+    "graphql-yoga": "^1.18.0",
+    "merge-graphql-schemas": "^1.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

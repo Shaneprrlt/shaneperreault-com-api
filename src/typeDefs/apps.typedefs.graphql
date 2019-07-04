@@ -1,0 +1,10 @@
+type App {
+  name: String!
+  photoUrl: String!
+  description: String!
+  url: String!
+}
+
+type Query {
+  apps: [App!]!
+}
