@@ -14,7 +14,7 @@
   "author": "shane perreault",
   "license": "ISC",
   "dependencies": {
-    "airtable": "^0.6.0",
+    "airtable": "^0.7.2",
     "dotenv": "^8.0.0",
     "esm": "^3.2.25",
     "graphql": "^14.4.2",
